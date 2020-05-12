@@ -33,8 +33,7 @@ const Search = React.memo(props => {
     }, 500);
     return () => {
       clearTimeout(timer);
-    }
-
+    };
   }, [enteredFilter, onLoadIngredients, inputRef]);
 
   return (
